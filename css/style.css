@@ -1,0 +1,388 @@
+*
+{
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	font-family: Franklin Gothic Book;
+}
+body
+{
+	background-image:url(../images/background001.png);
+	background-color:hsla(31, 83%, 67.6%, 0.83);
+}
+#okvir
+{
+	width: 100%;
+}
+/*HEDER*/
+/*HEDER meni*/
+#header #Hgore
+{
+	width: 100%;
+	padding: 5px 0px 5px 0px;
+	position: fixed;
+	background-color: #000000;
+	z-index:2;
+}
+#header #Hgore ul
+{
+	list-style-type: none;
+}
+#header #Hgore ul li
+{
+	display: inline-block;
+	margin: 0 auto;
+	margin-right: 20px;
+	margin-left: 20px;
+	font-size: 30px;	
+}
+#header #Hgore ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+}
+#header #Hgore ul li a:hover
+{
+	color: #f1af68;	
+}
+/*HEDER meni kraj*/
+/*HEDER soc media i logo*/
+#header #Hdole
+{
+	width: 100%;
+	margin: 0 auto;
+}
+#header #Hdole #logo
+{
+	width: 50%;
+}
+#header #Hdole #logo img
+{
+	width: 50%;
+	padding: 2%;
+}
+#header #Hdole #socMediaHeader
+{
+	width: inherit;
+	padding: 5px 0px 5px 0px;
+}
+#header #Hdole #socMediaHeader ul
+{
+	list-style-type: none;	
+}
+#header #Hdole #socMediaHeader ul li
+{
+	display: inline-block;
+	margin: 5px 30px 3px 30px;
+	font-size: 35px;
+}
+#header #Hdole #socMediaHeader ul li a
+{
+	text-decoration: none;
+	color: #000000;
+	margin: 0 auto;
+}
+#header #Hdole #socMediaHeader ul li a:hover
+{
+	color: #f1af68;
+}
+/*HEDER soc media i logo kraj*/
+/*SADRZAJ*/
+#sadrzaj
+{
+	background-color: #ffffff;
+}
+/*INDEX STRANA*/
+/*SADRZAJ index strana*/
+#sadrzaj #Ssredina #SsredinaTekst p
+{
+	margin: 2% 20% 2% 20%;
+	font-size: 20px;
+}
+#sadrzaj #Ssredina .SsredinaSlike
+{	
+	width: 30%;
+	margin: 10px 20px 10px 20px;
+	float: left;
+}
+#sadrzaj #Sdole
+{	
+	width: 100%;
+}
+#sadrzaj #Sdole .SsredinaSlike
+{	
+	width: 33.3333333333%;
+	float: left;
+	position: relative;
+}
+#sadrzaj #Sdole .SsredinaSlike:hover .overlay {
+  opacity: 1;
+}
+/*SADRZAJ index strana kraj*/
+/* CUK KARTICA STRANA*/
+/*FORMA cukKartica strana*/
+#Sforma
+{
+	width: 70%;
+	margin-top: 2%;
+}
+#Sforma input[type=text], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#Sforma input[type=email], select
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#Sforma input[type=submit]
+{
+    width: 100%;
+    background-color: #f1af68;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#Sforma input[type=submit]:hover
+{
+    background-color: #fbb05e;
+}
+#Sforma 
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/*FORMA cukKartica strana kraj*/
+/*MENI STRANA*/
+/*SADRZAJ meni strana*/
+#sadrzaj .galleryMeni
+{
+	width: 100%;
+}
+#sadrzaj .galleryMeni .goreMeni
+{
+	width: 100%;	
+}
+#sadrzaj .galleryMeni .doleMeni
+{
+	width: 100%;
+}
+.produkt
+{
+	float: left;
+	margin-left: 3%;
+	width:30%;
+}
+.desc 
+{
+    padding: 15px;
+    text-align: center;
+}
+/*SADRZAJ meni strana kraj*/
+/*KONTAKT STRANA*/
+/*SADRZAJ kontakt strana*/
+#sadrzaj #kontaktCuk
+{
+	float: center;
+	width: 40%;
+}
+#sadrzaj #kontaktCuk .kontaktTekst
+{
+	font-size: 20px;
+}
+#sadrzaj .kontaktOsoblje .kontaktTekst
+{
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	font-size: 20px;
+	margin-left:10%;
+	margin-right:10%;
+}
+/*SADRZAJ kontakt strana kraj*/
+/*GALERIJA STRANA*/
+/*SADRZAJ galerija strana*/
+#sadrzaj #galerija
+{
+	padding: 5% 0% 5% 0%;
+}
+#sadrzaj #galerija a
+{
+	text-decoration: none;
+}
+#sadrzaj #galerija a:hover
+{
+	opacity: 0.8;
+}
+/*SADRZAJ galerija strana kraj*/
+/*KARIJERA STRANA*/
+/*SADRZAJ karijera strana*/
+#sadrzaj .karijera
+{
+	width: 30%;
+	float: left;
+	margin: 2% 10% 2% 10%;
+}
+/*SADRZAJ karijera strana kraj*/
+/*OAUTORU STRANA*/
+/*SADRZAJ oautoru strana*/
+#sadrzaj #SAgore
+{
+	background-image: url('../images/oautoru001.png');
+	color: #ffffff;
+	padding: 1.5% 0%;
+}
+#sadrzaj #SAgore h1
+{
+	font-size: 60px;
+}
+#sadrzaj #SAgore #SAsredinaTekst p
+{
+	margin: 2% 20% 2% 20%;
+	font-size: 40px;
+}
+#sadrzaj #SAsredina img
+{
+	margin-top: 2%;
+}
+#sadrzaj #SAsredina #SAsredinaTekst p
+{
+	margin: 2% 20% 2% 20%;
+	font-size: 20px;
+}
+/*SADRZAJ oautoru strana kraj*/
+/*FOOTER DIV*/
+#footer
+{
+    bottom: 0;
+    width: 100%;
+    background-color: #232323;
+    text-align: center;
+}
+#footer p
+{
+	color: #ffffff;
+	
+}
+/*FOOTER gore DIV*/
+#footer #Fgore
+{
+	width:100%;
+	height: 23%;
+	padding: 1% 1% 1% 1%;
+}
+#footer #Fgore #radnoVreme
+{
+	width: 30%;
+	font-size: 20px;
+	height: 100%;
+	float:left;
+	margin-right: 5%;
+	}
+#footer #Fgore #kontakLokacija
+{
+	width: 30%;
+	font-size: 20px;
+	float: left;
+	height: 100%;
+}
+#footer #Fgore #mapa
+{
+	width: 30%;
+	height: 100%;
+	float: right;
+}
+/*FOOTER dole DIV*/
+#footer #Fdole
+{
+	width:100%;
+	display: block;
+}
+#footer #Fdole #socMediaFooter
+{
+	width: 100%;
+	font-size: 20px;
+	float: center;
+	background-color: #000000;
+}
+#footer #Fdole #socMediaFooter ul
+{
+	list-style-type: none;	
+}
+#footer #Fdole #socMediaFooter ul li
+{
+	display: inline-block;
+	margin: 10px 30px 10px 30px;
+	font-size: 30px;	
+}
+#footer #Fdole #socMediaFooter ul li a
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+}
+#footer #Fdole #socMediaFooter ul li a:hover
+{
+	color: #f1af68;
+}
+#footer #Fdole #socMediaFooter p
+{
+	color: #ffffff;
+}
+#footer #Fdole p a
+{
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 auto;
+}
+#footer #Fdole p a:hover
+{
+	color: #f1af68;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f1af68;
+}
+.text
+{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.img-circle
+{
+    border-radius:50%;
+}
+.cleaner
+{
+	clear: both;
+}	
